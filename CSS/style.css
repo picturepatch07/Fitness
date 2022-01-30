@@ -44,7 +44,7 @@ body {
     display: inline-block;
 }
 .navbar li a{
-    color: rgb(195, 101, 101);
+    color: white;
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
@@ -52,7 +52,7 @@ body {
 }
 .navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
-    color: rgb(251, 160, 160);
+    color: grey;
 }
 .btn{
     font-family: 'Baloo Bhai 2', cursive;
@@ -73,11 +73,12 @@ body {
 }
 .container{
     /* border: 2px solid green; */
-    margin: 66px 3px;
-    padding: 80px 46px;
+    margin: 69px 4px;
+    padding: 39px 47px;
     width: 40%;
     border-radius: 21px;
 }
+
 .form-group input{
     font-family: 'Baloo Bhai 2', cursive;
     font-family: 'Luxurious Roman', cursive;
@@ -91,7 +92,7 @@ body {
     margin: 8px auto;
     font-size: 21px;
     border-radius: 8px;
-    box-shadow: 4px -3px 10px 4px #db0909;
+    /* box-shadow: 4px -3px 10px 4px #db0909; */
 }
 .container h1{
     text-align: center;
